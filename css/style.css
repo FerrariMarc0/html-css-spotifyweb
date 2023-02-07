@@ -1,7 +1,5 @@
  /*   
     #080b12
-    #000000
-    #ffffff
     #141922
     #adff2f
     #7d7f84
@@ -14,6 +12,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li{
+    padding: .9375rem 0;
+}
+li span{
+    color: #6f6f6f;
 }
 /***********************
         UTILITY
@@ -48,6 +59,7 @@ button{
     border-radius: 2.5rem;
     color:  #ffffff;
     background: #141922;
+    cursor: pointer;
 }
 
 a-side{
@@ -55,17 +67,64 @@ a-side{
     top: 0;
     left: 0;
     max-width: 14.375rem;
-    max-height: 100vh;
+    height: 100vh;
     background: #000000;
-    color: #ffffff;
     flex-direction: column;
+    padding: .625rem;
+    color: #6f6f6f;
+    justify-content: space-between;
+}
+.logo {
+    width: 9.375rem;
+}
+.icons{
+    width: 1.5625rem;
+    vertical-align: middle;
 }
 
-p i{
-    f
+#playlist-nav{
+    margin: 1.875rem 0;
+}
+#playlist-nav a{
+    padding: 0 .9375rem;
+    background: #a3a3a3;
+    color: #000000;
+    font-size: 50px;
+}
+#playlist-nav li span{
+    vertical-align: super;
 }
 
 
+
+
+
+
+
+
+
+
+@media screen and (min-width: 640px){
+    .mobile{
+        display: none;
+    }
+    .logo{
+        padding: 1.25rem;
+    }
+    li{
+        padding: .625rem .9375rem;
+    }
+    #bottom-nav li:first-child{
+        border-bottom: .0625rem solid #717171;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .large{
+        display: none;
+    }
+
+}
 
 
 
