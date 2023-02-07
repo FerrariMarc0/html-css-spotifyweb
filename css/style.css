@@ -1,7 +1,12 @@
-
-
-
-
+ /*   
+    #080b12
+    #000000
+    #ffffff
+    #141922
+    #adff2f
+    #7d7f84
+    #282828
+*/
 /***********************
         RESET
 ************************/
@@ -10,16 +15,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    font-family: 'Montserrat', sans-serif;
+/***********************
+        UTILITY
+************************/
+.debug{
+    border: 1px dashed orangered;
+}
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
 }
 
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #141922;
+    position: relative;
+}
 
+header{
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    padding: 2.5rem;
+    justify-content: flex-end;
+}
 
+button{
+    border: 2px solid #ffffff;
+    padding: .625rem 2.5rem;
+    border-radius: 2.5rem;
+    color:  #ffffff;
+    background: #141922;
+}
 
+a-side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 14.375rem;
+    max-height: 100vh;
+    background: #000000;
+    color: #ffffff;
+    flex-direction: column;
+}
 
+p i{
+    f
+}
 
 
 
@@ -33,3 +77,9 @@ body{
 /***********************
 
 ************************/
+/*
+xs: <=552px
+sm: <=640px
+md: <=878px
+lg: >878px
+*/
