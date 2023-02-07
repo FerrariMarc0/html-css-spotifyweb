@@ -31,6 +31,7 @@ li span{
 ************************/
 .debug{
     border: 1px dashed orangered;
+    height: 91px;
 }
 .flex{
     display: flex;
@@ -41,6 +42,7 @@ li span{
 
 
 body{
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background: #141922;
     position: relative;
@@ -65,14 +67,14 @@ button{
 a-side{
     position: absolute;
     top: 0;
-    left: 0;
+    height: 100%;
     max-width: 14.375rem;
-    height: 100vh;
     background: #000000;
     flex-direction: column;
     padding: .625rem;
     color: #6f6f6f;
     justify-content: space-between;
+    z-index: 0;
 }
 .logo {
     width: 9.375rem;
@@ -94,9 +96,32 @@ a-side{
 #playlist-nav li span{
     vertical-align: super;
 }
-
-
-
+#bottom-nav ul{
+    margin-bottom: 80px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+.container ul{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#main-container{
+    border: 1px solid orange;
+    margin-left: 10%;
+}
+footer{
+    background: #282828;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
 
 
 
@@ -117,13 +142,28 @@ a-side{
     #bottom-nav li:first-child{
         border-bottom: .0625rem solid #717171;
     }
+    #bottom-nav {
+        margin-bottom: 40%;
+    }
+    .container{
+        max-width: 100%;
+        margin-left: 15%;
+        padding-left: 50px;
+    }
+    .container ul{
+        gap: none;
+    }
+    #main-container{
+        margin: 0 5%;
+        padding-left: 200px;
+    }
 }
 
 @media screen and (max-width: 640px){
     .large{
         display: none;
     }
-
+    
 }
 
 
