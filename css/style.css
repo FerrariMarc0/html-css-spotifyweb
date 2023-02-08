@@ -1,10 +1,3 @@
- /*   
-    #080b12
-    #141922
-    #adff2f
-    #7d7f84
-    #282828
-*/
 /***********************
         RESET
 ************************/
@@ -19,6 +12,7 @@ ul{
 a{
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 li{
     padding: .9375rem 0;
@@ -29,9 +23,6 @@ li span{
 /***********************
         UTILITY
 ************************/
-.debug{
-    border: 1px dashed blue;
-}
 .flex{
     display: flex;
 }
@@ -49,7 +40,7 @@ body{
 }
 
 header{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(8, 11, 18, 0.9);
     max-width: 100%;
     padding: 2.5rem;
     justify-content: flex-end;
@@ -65,7 +56,9 @@ button{
     padding: .625rem 2.5rem;
     border-radius: 2.5rem;
     color:  #ffffff;
-    background: #141922;
+    background: #080b12;
+    font-weight: 600;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -86,20 +79,31 @@ a-side{
     width: 1.5625rem;
     vertical-align: middle;
 }
+#user{
+    border-radius: 50%;
+    background-color: #808080;
+}
+#bottom-nav span{
+    color: #ffffff;
+}
 
 #playlist-nav{
     margin: 1.875rem 0;
-    height: 50%;
+    height: 40%;
     overflow: auto;
 }
-#playlist-nav a{
-    padding: 0 .9375rem;
+#plus{
+    padding: 0 10px;
     background: #a3a3a3;
     color: #000000;
-    font-size: 3.125rem;
+    font-size: 30px;
+    font-weight: 600;
 }
 #playlist-nav li span{
     vertical-align: super;
+}
+#playlist-nav h3{
+    color: #ffffff;
 }
 #bottom-nav ul{
     margin-bottom: 5rem;
@@ -112,7 +116,10 @@ a-side{
     position: sticky;
     top: 15%;
     padding-top: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
+
 .container ul{
     justify-content: center;
     color: #6f6f6f;
@@ -179,12 +186,16 @@ footer{
     background-position: center;
 }
 .progress{
-    width: 100%;
     height: .3125rem;
     background: #ffffff;
     align-self: center;
+    border-radius: .625rem;
 }
-.progress-small{
+#progress-main{
+    width: 100%;
+    
+}
+#progress-small{
     width: 6.25rem;
     height: .3125rem;
     background: #ffffff;
@@ -199,10 +210,11 @@ footer{
     gap: .625rem;
 }
 .middle{
-    padding: 1.875rem;
+    padding: .625rem;
     width: 40%;
     align-items: center;
     gap: .625rem;
+    margin: 0 .625rem;
 }
 .end{
     width: 30%;
@@ -224,6 +236,18 @@ footer{
 #play{
     font-size: 2.1875rem;
 }
+
+
+a:hover, button:hover, .change:hover, #plus:hover{
+    scale: 1.2;
+    color: #adff2f;
+    border-color: #adff2f;
+}
+.container a:hover{
+    border-bottom: 1px groove #adff2f;
+    
+}
+
 
 @media screen and (min-width: 640px){
     .mobile{
@@ -253,11 +277,31 @@ footer{
     .title{
         margin-left: 14.375rem;
     }
+    .end{
+        margin-right: auto;
+        justify-content: end;
+    }
+    .status{
+        width: 100%;
+    }
+    #footer-img{
+        width: 3.75rem;
+        height: 3.75rem;
+    }
+    .start{
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 640px){
     .large{
         display: none;
+    }
+}
+@media screen and (min-width: 878px){
+    .user-experience{
+        flex-direction: row;
+        gap: .9375rem;
     }
     
 }
