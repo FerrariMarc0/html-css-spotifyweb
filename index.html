@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Spotify Web</title>
-</head>
-<body>
-    <header class="flex">
-        <button>effettua l'upgrade</button>
-    </header>
-    <main>
-        <a-side class="flex">
+    <head>
+                    <!--FONT-AWESOME + FAVICON-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+                    <!--/FONT-AWESOME + FAVICON-->
+                    <!--GOOGLE FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+                    <!--/GOOGLE FONT-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Spotify Web</title>
+    </head>
+    <body>
+            <!--HEADER-->
+        <header class="flex">
+            <button>effettua l'upgrade</button>
+        </header>
+            <!--/HEADER-->
+        <main>  <!--SIDE-NAV-->
+            <a-side class="flex">
                 <div>
                     <a href="#"><img src="img/logo-small.svg" alt="logo-small" class="icons mobile"></a>
                     <a href="#"><img src="img/logo.svg" alt="logo" class="logo large"></a>
@@ -31,7 +37,7 @@
                         </nav>
                     </div>
                 </div>
-                
+                    
 
                 <div id="playlist-nav" class="large">
                     <ul>
@@ -52,113 +58,122 @@
                         <li><a href="#"><img src="img/profile.svg" alt="profile" class="icons" id="user"></a> <span class="large hover"><a href="">Jhon Doe</a></span></li>
                     </ul>
                 </div>
-        </a-side>
-        <div class="container">
-            <ul class="flex">
-                <li><a>in evidenza</a></li>
-                <li><a>podcast</a></li>
-                <li><a>classifiche</a></li>
-                <li><a>generi e mood</a></li>
-                <li><a>nuove uscite</a></li>
-                <li><a>scopri</a></li>
-            </ul>
-        </div>
-        <div class="title">
-            <h2>Recently played</h2>
-        </div>
-        <div id="main-container" class="flex">
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/metal_lifting.jpg" alt="img"></a></div>
-                <a href="#"><h4>Heavy Metal</h4></a>
-                <span><small>Subtitle</small></span>
+            </a-side>
+                    <!--/SIDE-NAV-->
+                    <!--TOP-NAV-->
+            <div class="container">
+                <ul class="flex">
+                    <li><a>in evidenza</a></li>
+                    <li><a>podcast</a></li>
+                    <li><a>classifiche</a></li>
+                    <li><a>generi e mood</a></li>
+                    <li><a>nuove uscite</a></li>
+                    <li><a>scopri</a></li>
+                </ul>
             </div>
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/stranger.jpeg" alt="img"></a></div>
-                <a href="#"><h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4></a>
-                <span><small>Kyle Dixon & Michael Stein</small></span>
+            <!--/TOP-NAV-->
+            <!--RECENTLY PLAYED-->
+            <div class="title">
+                <h2>Recently played</h2>
             </div>
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/aquietplace.jpeg" alt="img"></a></div>
-                <a href="#"><h4>A quiet place</h4></a>
-                <span><small>Subtitle</small></span>
+            <div id="main-container" class="flex">
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/metal_lifting.jpg" alt="img"></a></div>
+                    <a href="#"><h4>Heavy Metal</h4></a>
+                    <span><small>Subtitle</small></span>
+                </div>
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/stranger.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4></a>
+                    <span><small>Kyle Dixon & Michael Stein</small></span>
+                </div>
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/aquietplace.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>A quiet place</h4></a>
+                    <span><small>Subtitle</small></span>
+                </div>
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/split.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>Split</h4></a>
+                    <span><small>Subtitle</small></span>
+                </div>
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/cure.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>A cure for wellness</h4></a>
+                    <span><small>Subtitle</small></span>
+                </div>
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/sinister.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>Sinister</h4></a>
+                    <span><small>Subtitle</small></span>
+                </div>
+                <!--/RECENTLY PLAYED-->
+                <!--FOR JHON DOE-->
             </div>
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/split.jpeg" alt="img"></a></div>
-                <a href="#"><h4>Split</h4></a>
-                <span><small>Subtitle</small></span>
+            <div class="title">
+                <h2>Creato per Jhon Doe</h2>
+                <span><small>Piu ascolti, piu accurati saranno i suggerimenti</small></span>
             </div>
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/cure.jpeg" alt="img"></a></div>
-                <a href="#"><h4>A cure for wellness</h4></a>
-                <span><small>Subtitle</small></span>
+            <div id="main-container" class="flex">
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/radar.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>Release Radar</h4></a>
+                </div>
+                <div class="box text-center">
+                    <div class="play-album"><a href="#"><img src="img/mixdaily.jpeg" alt="img"></a></div>
+                    <a href="#"><h4>Daily Mix 1</h4></a>
+                </div>
             </div>
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/sinister.jpeg" alt="img"></a></div>
-                <a href="#"><h4>Sinister</h4></a>
-                <span><small>Subtitle</small></span>
+            <!--/FOR JHON DOE-->
+            <!--POPULAR ARTIST-->
+            <div class="title">
+                <h2>Artisti piu popolari</h2>
+                <span><small>Piu ascolti, piu accurati saranno i suggerimenti</small></span>
             </div>
-        </div>
-        <div class="title">
-            <h2>Creato per Jhon Doe</h2>
-            <span><small>Piu ascolti, piu accurati saranno i suggerimenti</small></span>
-        </div>
-        <div id="main-container" class="flex">
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/radar.jpeg" alt="img"></a></div>
-                <a href="#"><h4>Release Radar</h4></a>
+            <div id="main-container" class="flex">
+                <div class="box text-center">
+                    <div class="circle play-album" id="popular-a"></div>
+                    <a href="#"><h4>Lana del Rey</h4></a>
+                </div>
+                <div class="box text-center">
+                    <div class="circle play-album" id="popular-b"></div>
+                    <a href="#"><h4>Ludovico Einaudi</h4></a>
+                </div>
             </div>
-            <div class="box text-center">
-                <div class="play-album"><a href="#"><img src="img/mixdaily.jpeg" alt="img"></a></div>
-                <a href="#"><h4>Daily Mix 1</h4></a>
+        </main><!--/POPULAR ARTIST-->
+                <!--FOOTER-->
+        <footer class="flex">
+            <div class="flex start">
+                <div id="footer-img"></div>
+                <div>
+                    <a href="#"><h5>Sinister</h5></a>
+                    <span><a href="#"><small>Brano Nome</small></a></span>
+                </div>
+                <div class="flex column user-experience">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-regular fa-folder"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="title">
-            <h2>Artisti piu popolari</h2>
-            <span><small>Piu ascolti, piu accurati saranno i suggerimenti</small></span>
-        </div>
-        <div id="main-container" class="flex">
-            <div class="box text-center">
-                <div class="circle play-album" id="popular-a"></div>
-                <a href="#"><h4>Lana del Rey</h4></a>
+            <div class="flex column middle">
+                <div class="flex evenly consolle">
+                    <a href="#"><i class="fa-solid fa-shuffle"></i></a>
+                    <a href="#"><i class="fa-solid fa-backward-step"></i></a>
+                    <a href="#"><i class="fa-regular fa-circle-play" id="play"></i></a>
+                    <a href="#"><i class="fa-solid fa-forward-step"></i></a>
+                    <a href="#"><i class="fa-solid fa-rotate-right"></i></a>
+                </div>
+                <div class="flex evenly status">
+                    <span><a href="#"><small>0:25</small></a></span>
+                    <div id="progress-main" class="progress"></div>
+                    <span><a href="#"><small>4:35</small></a></span>
+                </div>
             </div>
-            <div class="box text-center">
-                <div class="circle play-album" id="popular-b"></div>
-                <a href="#"><h4>Ludovico Einaudi</h4></a>
+            <div class="flex evenly end">
+                <a href="#"><i class="fa-solid fa-list-ul"></i></a>
+                <a href="#"><i class="fa-solid fa-desktop"></i></a>
+                <a href="#"><i class="fa-solid fa-volume-high"></i></a>
+                <div id="progress-small" class="flex progress"></div>
             </div>
-        </div>
-    </main>
-    <footer class="flex">
-        <div class="flex start">
-            <div id="footer-img"></div>
-            <div>
-                <a href="#"><h5>Sinister</h5></a>
-                <span><a href="#"><small>Brano Nome</small></a></span>
-            </div>
-            <div class="flex column user-experience">
-                <a href="#"><i class="fa-regular fa-heart"></i></a></i>
-                <a href="#"><i class="fa-regular fa-folder"></i></a></i>
-            </div>
-        </div>
-        <div class="flex column middle">
-            <div class="flex evenly consolle">
-                <a href="#"><i class="fa-solid fa-shuffle"></i></a>
-                <a href="#"><i class="fa-solid fa-backward-step"></i></a>
-                <a href="#"><i class="fa-regular fa-circle-play" id="play"></i></a>
-                <a href="#"><i class="fa-solid fa-forward-step"></i></a>
-                <a href="#"><i class="fa-solid fa-rotate-right"></i></a>
-            </div>
-            <div class="flex evenly status">
-                <span><a href="#"><small>0:25</small></a></span>
-                <div id="progress-main" class="progress"></div>
-                <span><a href="#"><small>4:35</small></a></span>
-            </div>
-        </div>
-        <div class="flex evenly end">
-            <a href="#"><i class="fa-solid fa-list-ul"></i></a>
-            <a href="#"><i class="fa-solid fa-desktop"></i></a>
-            <a href="#"><i class="fa-solid fa-volume-high"></i></a>
-            <div id="progress-small" class="flex progress"></div>
-        </div>
-    </footer>
-</body>
+        </footer><!--/FOOTER-->
+    </body>
 </html>
