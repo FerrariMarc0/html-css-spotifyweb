@@ -7,6 +7,7 @@ a-side{
     color: #6f6f6f;
     justify-content: space-between;
     position: fixed;
+    z-index: 2;
 }
 .logo {
     width: 9.375rem;

@@ -20,3 +20,7 @@ a-side li:hover{
 .progress:hover{
     background: #adff2f;
 }
+.circle:hover{
+    transition: 1.5s linear;
+    transform: rotate(360deg);
+}
