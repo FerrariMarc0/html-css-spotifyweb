@@ -25,6 +25,8 @@ footer{
     width: 25%;
     background: #ffffff;
     height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
 }
 #progress-main{
     width: 100%;
@@ -72,4 +74,5 @@ footer button{
     border: none;
     color: #ffffff;
     cursor: pointer;
+    font-size: 1.25rem;
 }

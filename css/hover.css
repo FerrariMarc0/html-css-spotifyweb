@@ -17,3 +17,6 @@ a-side li:hover{
     opacity: 1;
     cursor: pointer;
 }
+.progress:hover{
+    background: #adff2f;
+}
