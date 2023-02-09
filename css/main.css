@@ -1,0 +1,41 @@
+main{
+    height:calc(100vh - 5.625rem);
+}
+.title{
+    margin-left: 15%;
+    color: #ffffff;
+}
+#main-container{
+    margin-left: 15%;
+    flex-wrap: wrap;
+    padding: 1.25rem .3125rem;
+    gap: .625rem;
+    padding-bottom: 3.125rem;
+}
+.box{
+    width: 13.125rem;
+    height: 19.625rem;
+    color: #ffffff;
+}
+.box img{
+    width: 100%;
+}
+.box h4{
+    margin: .625rem 0;
+}
+.box span{
+    color: #6f6f6f;
+}
+.circle{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+#popular-a{
+    background-image: url(../img/youg.jpeg);
+}
+#popular-b{
+    background-image: url(../img/einaudi.jpeg);
+}

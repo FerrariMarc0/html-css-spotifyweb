@@ -1,0 +1,27 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #141922;
+    position: relative;
+}
+
+header{
+    background: rgba(8, 11, 18, 0.9);
+    max-width: 100%;
+    padding: 2.5rem;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+button{
+    border: .125rem solid #ffffff;
+    padding: .625rem 2.5rem;
+    border-radius: 2.5rem;
+    color:  #ffffff;
+    background: #080b12;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}

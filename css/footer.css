@@ -1,0 +1,69 @@
+footer{
+    height: 5.625rem;
+    background: #282828;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+    padding: 0 .625rem;
+}
+#footer-img{
+    width: 3.75rem;
+    background-image: url(../img/sinister.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.progress{
+    height: .3125rem;
+    background: #ffffff;
+    align-self: center;
+    border-radius: .625rem;
+}
+#progress-main{
+    width: 100%;
+    
+}
+#progress-small{
+    width: 6.25rem;
+    height: .3125rem;
+    background: #ffffff;
+    align-self: center;
+}
+.evenly {
+    gap: .625rem;
+    width: 100%;
+}
+.start{
+    width: 30%;
+    gap: .625rem;
+}
+.middle{
+    padding: .625rem;
+    width: 40%;
+    align-items: center;
+    gap: .625rem;
+    margin: 0 .625rem;
+}
+.end{
+    width: 30%;
+    margin-right: 6.25rem;
+}
+.user-experience{
+    gap: .3125rem;
+    padding-left: 10%;
+    justify-content: center;
+}
+.status{
+    width: 10.625rem;
+}
+.consolle{
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+#play{
+    font-size: 2.1875rem;
+}
