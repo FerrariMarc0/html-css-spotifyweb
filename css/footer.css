@@ -17,7 +17,7 @@ footer{
 }
 .progress-bar{
     height: .3125rem;
-    background: grey;
+    background: #5a5a5a;
     align-self: center;
     border-radius: .625rem;
 }

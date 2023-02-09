@@ -13,6 +13,7 @@
     width: 13.125rem;
     height: 19.625rem;
     color: #ffffff;
+    
 }
 .box img{
     width: 100%;
@@ -22,6 +23,15 @@
 }
 .box span{
     color: #6f6f6f;
+}
+.play-album{
+    position: relative;
+}
+.play-album i{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    opacity: 0;
 }
 .circle{
     width: 12.5rem;
