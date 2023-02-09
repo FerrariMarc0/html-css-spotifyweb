@@ -6,7 +6,17 @@ a:hover, button:hover, .change:hover, #plus:hover{
 .container a:hover{
     border-bottom: 1px groove #adff2f;
 }
-
 .play-album:hover {
     scale: 1.1;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(-180deg);
+    }
+    30%{
+        transform:rotate(180deg);
+    }
 }

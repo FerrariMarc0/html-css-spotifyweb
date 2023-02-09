@@ -19,7 +19,7 @@
     .container ul{
         gap: none;
     }
-    #main-container{
+    .main-container{
         margin: 0 5%;
         margin-left: 14.375rem;
     }
@@ -31,7 +31,7 @@
         justify-content: end;
     }
     .status{
-        width: 100%;
+        width: 70%;
     }
     #footer-img{
         width: 3.75rem;

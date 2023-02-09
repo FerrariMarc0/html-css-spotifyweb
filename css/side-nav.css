@@ -25,7 +25,7 @@ a-side{
 
 #playlist-nav{
     margin: 1.875rem 0;
-    height: 40%;
+    height: 11.25rem;
     overflow: auto;
 }
 #plus{
@@ -35,10 +35,10 @@ a-side{
     font-size: 30px;
     font-weight: 600;
 }
-#playlist-nav li span{
+#playlist-title li span{
     vertical-align: super;
 }
-#playlist-nav h3{
+#playlist-title h3{
     color: #ffffff;
 }
 #bottom-nav ul{

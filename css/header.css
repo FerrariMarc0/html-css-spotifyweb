@@ -15,7 +15,7 @@ header{
     right: 0;
 }
 
-button{
+header button{
     border: .125rem solid #ffffff;
     padding: .625rem 2.5rem;
     border-radius: 2.5rem;

@@ -39,17 +39,19 @@
                 </div>
                     
 
-                <div id="playlist-nav" class="large">
+                <div id="playlist-title" class="large">
                     <ul>
                         <li><h3>playlist</h3></li>
                         <li><a href="#" id="plus">+</a><span> Crea Playlist</span></li>
-                        <li><a>Joseph Capriati</a></li>
-                        <li><a>Pan-Pot</a></li>
-                        <li><a>Loco Dice</a></li>
-                        <li><a>Techno</a></li>
-                        <li><a>Fabio Florido</a></li>
-                        <li><a>Richie Hawtin</a></li>
-                        <li><a>Recondite</a></li>
+                        <ul id="playlist-nav">
+                            <li><a>Joseph Capriati</a></li>
+                            <li><a>Pan-Pot</a></li>
+                            <li><a>Loco Dice</a></li>
+                            <li><a>Techno</a></li>
+                            <li><a>Fabio Florido</a></li>
+                            <li><a>Richie Hawtin</a></li>
+                            <li><a>Recondite</a></li>
+                        </ul>
                     </ul>
                 </div>
                 <div id="bottom-nav">
@@ -76,7 +78,7 @@
             <div class="title">
                 <h2>Recently played</h2>
             </div>
-            <div id="main-container" class="flex">
+            <div class="main-container flex">
                 <div class="box text-center">
                     <div class="play-album"><a href="#"><img src="img/metal_lifting.jpg" alt="img"></a></div>
                     <a href="#"><h4>Heavy Metal</h4></a>
@@ -114,7 +116,7 @@
                 <h2>Creato per Jhon Doe</h2>
                 <span><small>Piu ascolti, piu accurati saranno i suggerimenti</small></span>
             </div>
-            <div id="main-container" class="flex">
+            <div class="main-container flex">
                 <div class="box text-center">
                     <div class="play-album"><a href="#"><img src="img/radar.jpeg" alt="img"></a></div>
                     <a href="#"><h4>Release Radar</h4></a>
@@ -130,7 +132,7 @@
                 <h2>Artisti piu popolari</h2>
                 <span><small>Piu ascolti, piu accurati saranno i suggerimenti</small></span>
             </div>
-            <div id="main-container" class="flex">
+            <div class="main-container flex">
                 <div class="box text-center">
                     <div class="circle play-album" id="popular-a"></div>
                     <a href="#"><h4>Lana del Rey</h4></a>
@@ -150,17 +152,17 @@
                     <span><a href="#"><small>Brano Nome</small></a></span>
                 </div>
                 <div class="flex column user-experience">
-                    <a href="#"><i class="fa-regular fa-heart"></i></a>
-                    <a href="#"><i class="fa-regular fa-folder"></i></a>
+                   <button><i class="fa-regular fa-heart"></i></button>
+                   <button><i class="fa-regular fa-folder"></i></button>
                 </div>
             </div>
             <div class="flex column middle">
                 <div class="flex evenly consolle">
-                    <a href="#"><i class="fa-solid fa-shuffle"></i></a>
-                    <a href="#"><i class="fa-solid fa-backward-step"></i></a>
-                    <a href="#"><i class="fa-regular fa-circle-play" id="play"></i></a>
-                    <a href="#"><i class="fa-solid fa-forward-step"></i></a>
-                    <a href="#"><i class="fa-solid fa-rotate-right"></i></a>
+                    <button><i class="fa-solid fa-shuffle"></i></button>
+                    <button><i class="fa-solid fa-backward-step"></i></button>
+                    <button><i class="fa-regular fa-circle-play" id="play"></i></button>
+                    <button><i class="fa-solid fa-forward-step"></i></button>
+                    <button><i class="fa-solid fa-rotate-right"></i></button>
                 </div>
                 <div class="flex evenly status">
                     <span><a href="#"><small>0:25</small></a></span>
@@ -169,9 +171,9 @@
                 </div>
             </div>
             <div class="flex evenly end">
-                <a href="#"><i class="fa-solid fa-list-ul"></i></a>
-                <a href="#"><i class="fa-solid fa-desktop"></i></a>
-                <a href="#"><i class="fa-solid fa-volume-high"></i></a>
+                <button><i class="fa-solid fa-list-ul"></i></button>
+                <button><i class="fa-solid fa-desktop"></i></button>
+                <button><i class="fa-solid fa-volume-high"></i></button>
                 <div id="progress-small" class="flex progress"></div>
             </div>
         </footer><!--/FOOTER-->
