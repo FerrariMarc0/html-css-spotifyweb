@@ -15,11 +15,16 @@ footer{
     background-size: cover;
     background-position: center;
 }
-.progress{
+.progress-bar{
     height: .3125rem;
-    background: #ffffff;
+    background: grey;
     align-self: center;
     border-radius: .625rem;
+}
+.progress{
+    width: 25%;
+    background: #ffffff;
+    height: 100%;
 }
 #progress-main{
     width: 100%;
